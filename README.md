@@ -37,4 +37,4 @@ Specialized in combining rigorous statistical modeling, mathematical optimizatio
 ## 📬 Contact & Connect
 
 * **Email:** `jessicaandradeg@peb.ufrj.br`
-* **Academic Profile:** COPPE / UFRJ (Biomedical Engineering)
+
