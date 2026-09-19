@@ -38,4 +38,5 @@ Specialized in combining rigorous statistical modeling, mathematical optimizatio
 ## 📬 Contact & Connect
 
 * **Email:** `jessicaandradeg@peb.ufrj.br`
-LinkedIn: linkedin.com/in/jessicadeandrade27
+* **LinkedIn:** [linkedin.com/in/jessicadeandrade27](https://www.linkedin.com/in/jessicadeandrade27)
+
