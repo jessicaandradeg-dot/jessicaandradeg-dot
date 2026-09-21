@@ -1,7 +1,7 @@
 # Hi, I'm Jéssica Andrade 👋
 ### Ph.D. Candidate in Biomedical Engineering (COPPE/UFRJ) | Applied Machine Learning, Operations Research & Causal Inference Specialist
 
-Specialized in combining rigorous statistical modeling, mathematical optimization, causal inference, and production-grade MLOps to solve high-impact financial and operational domain problems.
+Specialized in combining rigorous statistical modeling, mathematical optimization, causal inference, machine learning, and production-grade MLOps to solve high-impact financial and operational domain problems.
 
 ---
 
@@ -19,7 +19,11 @@ Specialized in combining rigorous statistical modeling, mathematical optimizatio
 * **Stack:** Python, LightGBM, Optuna, MLflow, Pytest, Scikit-Learn.
 * **Business Impact:** Mitigates asymmetric financial risk in retail credit by pairing Optuna hyperparameter search with a custom Cost-Matrix evaluator, shifting optimization from raw accuracy to net BRL loss minimization ($\text{FN} = \text{R}\$ 5.000$ vs $\text{FP} = \text{R}\$ 500$). Features automated unit tests and experiment tracking.
 
-### 📊 [4. Credit Portfolio Analytics & Cohort Risk (SQL)](https://github.com/jessicaandradeg-dot/credit-cohort-analytics-sql)
+### 🔎 [4. Event Correlation & Root Cause Analysis](https://github.com/jessicaandradeg-dot/Event-Correlation-Root-Cause-Analysis)
+* **Stack:** Python, Pandas, Scikit-Learn, Random Forest, Feature Engineering, Jupyter Notebook.
+* **Engineering Focus:** Builds a reproducible prototype for incident correlation in distributed systems using event co-occurrence, temporal windows, severity signals, and Top-1/Top-3 root-cause ranking. The project also documents the gap between high performance on strongly separated synthetic data and the complexity of production observability.
+
+### 📊 [5. Credit Portfolio Analytics & Cohort Risk (SQL)](https://github.com/jessicaandradeg-dot/credit-cohort-analytics-sql)
 * **Stack:** PostgreSQL, ANSI SQL, Window Functions, CTEs, Cohort Analysis.
 * **Analytical Focus:** Engineered vintage cohort analysis for $90+$ DPD default evolution tracking, transition roll-rate matrices across risk buckets, and regulatory Expected Loss (PDD) calculations using EAD, PD, and LGD parameters.
 
@@ -30,6 +34,7 @@ Specialized in combining rigorous statistical modeling, mathematical optimizatio
 * **Optimization & Operations Research:** Mixed-Integer Linear Programming (PuLP, CBC, HiGHS), Monte Carlo Simulation, Sequential Decision-Making, Heuristics Benchmark.
 * **Causal Inference & Advanced Statistics:** Doubly Robust Estimators (AIPW), Propensity Score Matching (PSM), Inverse Probability Weighting (IPW), Non-Parametric Bootstrap Inference, Hypothesis Testing.
 * **Machine Learning & DL:** LightGBM, XGBoost, Scikit-Learn, Optuna, Cost-Sensitive Learning, Feature Engineering.
+* **Observability & RCA:** Event Correlation, Root Cause Analysis, Incident Signals, Temporal Feature Engineering, Top-K Ranking.
 * **MLOps & Software Engineering:** MLflow, Git, Pytest, Modular Software Architecture, Decision Audit Logging.
 * **Languages & Analytics:** Python 3.10+, SQL (PostgreSQL), R, Advanced Window Functions, Cohort/Vintage Analysis.
 
