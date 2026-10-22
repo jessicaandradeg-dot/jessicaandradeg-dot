@@ -81,5 +81,5 @@ I have contributed to bibliometric and scientific-integrity studies involving sc
 
 ## 📬 Contact
 
-- **Email:** [jessicaandradeg@peb.ufrj.br](mailto:jessicaandradeg@peb.ufrj.br)
+- **Email:** [jeessicaandrade27@gmail.com](mailto:jeessicaandrade27@gmail.com)
 - **LinkedIn:** [linkedin.com/in/jessicadeandrade27](https://www.linkedin.com/in/jessicadeandrade27)
