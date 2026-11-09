@@ -1,14 +1,19 @@
 # Hi, I'm Jéssica Andrade 👋
 
-### Biomedical Engineering Ph.D. Candidate at COPPE/UFRJ | Applied Data Science, Machine Learning & Operations Research
+### Biomedical Engineering Ph.D. Candidate at COPPE/UFRJ | Applied Data Science, NLP & Semantic Search, Machine Learning & Operations Research
 
-I am a biomedical engineer and researcher with an M.Sc. in Biomedical Engineering and ongoing Ph.D. studies at COPPE/UFRJ. My work combines statistical modeling, machine learning, causal inference, and mathematical optimization to investigate decision problems in public health, finance, and operations.
+I am a biomedical engineer and researcher with an M.Sc. in Biomedical Engineering and ongoing Ph.D. studies at COPPE/UFRJ. My work combines statistical modeling, machine learning, natural language processing, causal inference, and mathematical optimization to investigate decision problems in public health, finance, and operations.
 
 I build reproducible analytical prototypes in Python, SQL, and R, with attention to evaluation, documentation, and methodological limitations. Portfolio experiments that use generated data are labeled as synthetic and should not be interpreted as evidence of real-world impact or production experience.
 
 ---
 
 ## 🚀 Selected Projects
+
+### 🔎 [Biomedical Semantic Search & RAG](https://github.com/jessicaandradeg-dot/rag-biomed)
+**Python · Sentence-BERT · FAISS · ChromaDB · BM25 · Cross-Encoder · PyTorch · Streamlit · pytest**
+
+Hybrid retrieval and retrieval-augmented generation (RAG) prototype over PubMed abstracts. Covers text cleaning, sentence-based chunking, spaCy lemmatization, multilingual embeddings (MiniLM, E5), vector indexes (FAISS and ChromaDB), BM25 + dense retrieval combined with Reciprocal Rank Fusion, cross-encoder re-ranking, and citation-grounded generation with three prompt versions. Retrieval is evaluated with recall@k and MRR on a manually reviewed question set, generation is checked for faithfulness and citation validity, and a PyTorch fine-tuning loop (in-batch negatives) is compared against the base model. Includes a Streamlit demo, optional PostgreSQL metadata storage, and unit tests. The evaluation set is small, so differences between configurations should be read as indicative, not conclusive.
 
 ### 💳 [Credit Pricing & Decision Engine](https://github.com/jessicaandradeg-dot/credit-pricing-decision-engine)
 **Python · scikit-learn · Logistic Regression · MLP · SQLite · Bootstrap · pytest**
@@ -74,10 +79,12 @@ I have contributed to bibliometric and scientific-integrity studies involving sc
 ## 🛠️ Technical Toolkit
 
 - **Programming & data:** Python, SQL (PostgreSQL), R, Pandas, NumPy, SciPy
-- **Machine learning:** scikit-learn, LightGBM, XGBoost, feature engineering, model evaluation
+- **NLP & information retrieval:** spaCy, Sentence-Transformers, embeddings, semantic search, hybrid retrieval (BM25 + dense, RRF), re-ranking, RAG, prompt engineering, recall@k / MRR evaluation
+- **Vector databases:** FAISS, ChromaDB
+- **Machine learning:** scikit-learn, LightGBM, XGBoost, PyTorch (embedding fine-tuning), feature engineering, model evaluation
 - **Statistics & causal inference:** AIPW, PSM, IPW, bootstrap, hypothesis testing
 - **Operations research:** MILP, PuLP, CBC, HiGHS, Monte Carlo simulation
-- **Analytics & reproducibility:** cohort analysis, window functions, MLflow, Optuna, Git, pytest
+- **Analytics & reproducibility:** cohort analysis, window functions, MLflow, Optuna, Streamlit, Git, pytest
 
 ## 📬 Contact
 
